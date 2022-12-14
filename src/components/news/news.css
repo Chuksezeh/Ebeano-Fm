@@ -1,0 +1,187 @@
+
+.lineimage{
+    height: 30px;
+    width: 1100px;
+    margin-left: 15%;
+}
+.newsimage-container{
+    width: 315px;
+}
+.news-header{
+    margin-left: 15%;
+}
+.new-container,.second-news{
+    display: inline-flex;
+    margin-left: 15%;
+    gap: 8%;
+    position: relative;
+}
+.news-p{
+    font-weight: bolder;
+}
+.newsimage-container :hover{
+    color: orange;
+    cursor: default;
+}
+.newsimage{
+    width: 315px;
+    height: 250px;
+}
+.socialmedia-container{
+    background-color: whitesmoke;
+    border:whitesmoke;
+    box-shadow:-1px 1px 5px 1px;
+    position: absolute;
+    z-index: 1;
+    left:75% ;
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+}
+.facebook-icon{
+    background-color: rgb(1, 93, 231);
+    padding: 10px;
+    text-align: center;
+    width: 220px;
+    border-radius: 20px;
+    color: white;
+    
+}
+.instagram-icon{
+    background-color: brown;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.twitter-icon{
+    background-color:rgb(3, 161, 252) ;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px; 
+    color: white;
+
+}
+.tiktok-icon{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.youtube-icon{
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.social-head{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    
+
+}
+.facebook-icon :hover{
+  transform: scale( 1.1, 1);
+  transition: 0.5s;
+}
+.instagram-icon:hover{
+  transform: scale( 1.1, 1);
+  transition: 0.5s; 
+}
+.twitter-icon:hover{
+    transform: scale( 1.1, 1);
+    transition: 0.5s;  
+}
+.tiktok-icon:hover{
+    transform: scale( 1.1, 1);
+    transition: 0.5s;
+}
+.youtube-icon:hover{
+    transform: scale( 1.1, 1);
+    transition: 0.5s; 
+}
+.entertainment-header{
+    margin-left: 15%;
+} 
+.entertainment-div{
+    width: 290px;
+    
+    gap: 10px;
+}
+.entertainment-div:hover{
+color: orange;
+}
+
+.entertainment-image{
+    width: 230px;
+    height: 180px;
+    
+}
+.entertainment-container{
+    display: flex;
+    margin-left: 15%;
+    width: 1100px;
+    gap: 60px;
+    cursor: default;
+    position: relative;
+}
+
+.second-ent-line{
+    display: flex;
+    width: 1100px;
+    gap: 60px;
+    margin-left: 15%;
+    cursor: default;
+    position: relative;
+    
+    
+}
+.miss-container{
+    position: absolute;
+    margin-left: 77%;
+
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.display-missed{
+    display: grid;
+    gap: 5px;
+}
+.missed1{
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border: white solid;
+    box-shadow: 2px 4px 2px;
+}
+.missed1:hover{
+ background-color: orange;
+ 
+}
+.podcast-container{
+    display: flex;
+    gap: 60px;
+    margin-left: 15%;
+}
+.podcast-div{
+width:230px ;
+cursor: default;
+
+}
+.podcast-div:hover{
+color: orange;
+}
+.podcast-image{
+    width: 230px;
+    height: 180px;
+}
+.podcast-header{
+    margin-left: 15%;
+}
+.pod-p,.ent-p{
+    font-weight: bolder;
+}

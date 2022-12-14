@@ -6,7 +6,7 @@ const Header = ()=>{
         <>
             <div className="nav-bar">
                 <img className="logo" src={logo1} />
-                <h1 className="radio-name">EBEANO FM</h1>
+                <h1 className="radio-name">EBEONADI FM</h1>
                 <ul className="nav-list">
                     <li>Home</li>
                     <li>Music</li>

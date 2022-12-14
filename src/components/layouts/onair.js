@@ -1,8 +1,8 @@
 
 import Presenter from "./../images/radio3.jpg"
-import {AiFillPlayCircle} from "react-icons/ai/"
+import {GoPlay} from "react-icons/go"
 import {CiMicrophoneOn} from "react-icons/ci"
-import{FcClock} from "react-icons/fc"
+import{ImClock} from "react-icons/im"
 const OnAir = ()=>{
     return(
         <>
@@ -11,12 +11,12 @@ const OnAir = ()=>{
                 <div>
 
                     <h2 className="onair-head">On Air Now<i><CiMicrophoneOn /></i> </h2>
-                    <p>Morning Show</p>
-                    <p>10 AM - 2PM <i><FcClock /></i></p>
-                    <h3 className="btn-onair">Listen Live <span className="icon1"><AiFillPlayCircle /></span></h3>
+                    <u><h3 className="morning-show">Morning Show</h3></u>
+                    <p className="onair-time">10 AM - 2PM <i><ImClock /></i></p>
+                    <p className="listen">Listen Live <span className="play-icon"><GoPlay size={50} /></span></p>
                 </div>
                 <div className="pic-div">
-                    <h4 className="presenter-name">Christian Paul Inoje</h4>
+                    <h3 className="presenter-name">Christian Paul Inoje</h3>
                     <img className="presenter" src={Presenter} />
 
                 </div>
