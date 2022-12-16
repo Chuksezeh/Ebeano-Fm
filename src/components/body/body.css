@@ -10,7 +10,7 @@
 .body1-second,
 .body1-third
 {
- background-color: orange;
+ background-color: darkorange;
  width: 420px; 
    
 }
@@ -26,7 +26,6 @@
     position: absolute;
     margin-bottom: 0px;
     z-index: 2;
-    background-color: rgba(0, 0, 0, 0.178);
     height: 250px;
     width: 420px;
     text-align: center;
@@ -46,7 +45,7 @@ background-color: rgba(15, 14, 14, 0.678);
 }
 .top-stories{
     text-align: center;
-    color: orange;
+    color: darkorange;
     padding-top: 20px;
 }
 .img2{
@@ -58,7 +57,7 @@ background-color: rgba(15, 14, 14, 0.678);
 }
 .body2-container{
     margin-top: 50px;
-    background-color: orange;
+    background-color: darkorange;
     position: relative;
     display:flex ;
 }
@@ -103,6 +102,7 @@ background-color: rgba(0, 0, 0, 0.11);
    padding: 10px;
    margin-left: 12%;
 }
+
 .body3{
     position: relative;
 }

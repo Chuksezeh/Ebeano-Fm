@@ -20,7 +20,7 @@
     font-weight: bolder;
 }
 .newsimage-container :hover{
-    color: orange;
+    color: darkorange;
     cursor: default;
 }
 .newsimage{
@@ -112,7 +112,7 @@
     gap: 10px;
 }
 .entertainment-div:hover{
-color: orange;
+color: darkorange;
 }
 
 .entertainment-image{
@@ -141,10 +141,9 @@ color: orange;
 }
 .miss-container{
     position: absolute;
-    margin-left: 77%;
+    margin-left: 75%;
 
-    width: 200px;
-    text-align: center;
+    width: 250px;
     padding: 10px;
     
 }
@@ -157,9 +156,27 @@ color: orange;
     border-radius: 20px;
     border: white solid;
     box-shadow: 2px 4px 2px;
+    position: relative;
+
+}
+.missedimage1{
+    width: 90px;
+    position: absolute;
+    margin-top: 25px;
+    padding-left: 5px;
+    border-radius: 10px;
+
+}
+.missed-header{
+    
+    text-align: center;
+}
+.missed-subhead,
+.missed-time{
+    margin-left: 100px;
 }
 .missed1:hover{
- background-color: orange;
+ background-color: darkorange;
  
 }
 .podcast-container{
@@ -173,7 +190,7 @@ cursor: default;
 
 }
 .podcast-div:hover{
-color: orange;
+color: darkorange;
 }
 .podcast-image{
     width: 230px;

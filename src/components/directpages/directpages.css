@@ -1,0 +1,51 @@
+.listenlive-container{
+    padding: 50px;
+background-color: rgba(243, 134, 0, 0.308);
+position: relative;
+
+}
+.playing-image{
+    width: 150px;
+    
+    
+}
+.playing-imagediv{
+    margin-left: 50%;
+    background-color: bisque;
+    position: absolute;
+    margin-top: 80px;
+}
+.caller-div{
+    background-color:black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+.toplive{
+    padding: 9px;
+    margin-left: 50%;
+    width: 100px;
+    border: solid;
+    border-radius: 20px;
+}
+.onairnow-div{
+    position: relative;
+    padding-left: 10%;
+}
+.playlive-icon{
+    position: absolute;
+    margin-left: -5%;
+    margin-top: 20px;
+    font-size: 80px;
+}
+.livett{
+    margin-right: 3%;
+    background-color: darkorange;
+    padding: 7px;
+    border-radius: 10px;
+    
+}
+.ebe-header{
+    color: darkorange;
+}
