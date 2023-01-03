@@ -1,13 +1,20 @@
-import imgnews from "./../images/radio4.jpg"
 import {NavLink} from "react-router-dom";
 import Changer from "../layouts/changer";
 import Header from "../layouts/header";
 import OnAir from "../layouts/onair";
 import Newsfeed from "../layouts/newsfeed";
-const NewsDisplay = ()=>{
-    return(
-        <>
-         <Changer />
+import newsImage2 from "../images/news2.jpg";
+
+const News1 = ()=>{
+    const letter = 'come home now';
+    const handle = ()=>{
+        console.log('hello people')
+    }
+    
+
+ return(
+    <>
+     <Changer />
             <div className="container-header">
 
                 <Header/>
@@ -15,10 +22,13 @@ const NewsDisplay = ()=>{
             </div>
             <Newsfeed/>
 
+            <h1>{letter}</h1>
+            <button onClick={handle}>click me</button>
+
         <h1>The UK's Notorious Red list has dunked South Africa’s Tourism  into Trouble Waters</h1>
         <div className="ne-container">
-    
-            <img className="img-new" src={imgnews}/>
+        <img className="newsimage" src={newsImage2} />
+            {/* <img className="img-new" src={imgnews}/> */}
             <NavLink to='/'>go home</NavLink>
             <div>
             Once upon a time, you had to sit by your TV or radio if you wanted to follow a breaking news story and get the most up-to-date information. These days, however, you have plenty of additional options, especially if you have a smartphone.
@@ -63,7 +73,9 @@ If you prefer not to be bothered with pings and alerts and you don’t want to c
 Social Media
             </div>
         </div>
-        </>
-    )
+    
+    </>
+ )
+   
 }
-export default NewsDisplay
+export default News1

@@ -2,13 +2,14 @@ import React from "react"
 import Body1 from "./body/body1"
 import Body2 from "./body/body2"
 import ListenLive from "./directpages/listenlive"
+
 import Changer from "./layouts/changer"
 import Header from "./layouts/header"
 import Newsfeed from "./layouts/newsfeed"
 import OnAir from "./layouts/onair"
 import Entertainment from "./news/Entertaiment"
 import LineImage from "./news/lineImage"
-import News from "./news/news"
+import News from "./news/newss"
 import Podcast from "./news/podcast"
 import ShowMissed from "./news/showmissed"
 import SocialMedia from "./news/socialmedia"
@@ -43,6 +44,15 @@ const Home = ()=>{
             <Podcast />
             <LineImage />
             <ListenLive/>
+            <LineImage />
+            <div className="top-newsdisplay-container"> 
+            
+
+            </div>
+            {/* news dsplay */}
+           
+
+            
 
         </>
     )

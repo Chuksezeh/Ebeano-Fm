@@ -49,3 +49,12 @@ position: relative;
 .ebe-header{
     color: darkorange;
 }
+.ne-container{
+    display: flex;
+    gap: 5%;
+    font-size: larger;
+}
+.img-new{
+    height: 400px;
+    position: relative;
+}
