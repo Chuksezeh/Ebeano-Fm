@@ -3,6 +3,7 @@ import photo3 from "./../images/black2.jpg";
 import photo4 from "./../images/black3.jpg";
 import photo5 from "./../images/black4.jpg";
 import {GrPlayFill} from "react-icons/gr"
+import { NavLink } from "react-router-dom";
 
 const Body2 = ()=>{
     return(
@@ -12,15 +13,17 @@ const Body2 = ()=>{
                     <div className="body22">
                         <h2 className="program-header">PROGRAMS</h2>
                         <u><h3 className="schedule">Schedule</h3></u>
-                        <span className="listen2">Listen <i className="icon-play"><GrPlayFill/></i></span>
+            
+                        <NavLink to="/listenlive" className="listen2">Listen <i className="icon-play"><GrPlayFill/></i></NavLink>
+                        
                     </div>
                     <div className="body2-secondcontainer">
-                        <div className="body3">
+                        <NavLink to="/programs" className="body3">
                         <span className="lday">Late Night Show</span>
                             <span className="day-time">6:00 PM - 7:00PM</span>
                             <img className="img2" src={photo2} />
                             
-                        </div>
+                        </NavLink>
 
                         <div className="body4">
 

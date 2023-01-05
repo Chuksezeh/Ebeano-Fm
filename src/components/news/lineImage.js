@@ -7,6 +7,7 @@ const LineImage = ()=>{
           <img className="lineimage" src={lineimage}/>  
         </div>
         </>
+        
     )
 }
 export default LineImage

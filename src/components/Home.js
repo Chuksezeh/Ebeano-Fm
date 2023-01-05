@@ -1,18 +1,16 @@
-import React from "react"
-import Body1 from "./body/body1"
-import Body2 from "./body/body2"
-import ListenLive from "./directpages/listenlive"
-
-import Changer from "./layouts/changer"
-import Header from "./layouts/header"
-import Newsfeed from "./layouts/newsfeed"
-import OnAir from "./layouts/onair"
-import Entertainment from "./news/Entertaiment"
-import LineImage from "./news/lineImage"
-import News from "./news/newss"
-import Podcast from "./news/podcast"
-import ShowMissed from "./news/showmissed"
-import SocialMedia from "./news/socialmedia"
+import React from "react";
+import Body1 from "./body/body1";
+import Body2 from "./body/body2";
+import Changer from "./layouts/changer";
+import Header from "./layouts/header";
+import Newsfeed from "./layouts/newsfeed";
+import OnAir from "./layouts/onair";
+import Entertainment from "./news/Entertaiment";
+import LineImage from "./news/lineImage";
+import News from "./news/newss";
+import Podcast from "./news/podcast";
+import ShowMissed from "./news/showmissed";
+import SocialMedia from "./news/socialmedia";
 
 const Home = ()=>{
     return(
@@ -20,19 +18,19 @@ const Home = ()=>{
             <Changer />
             <div className="container-header">
 
-                <Header />
+                  <Header />
                 <OnAir />
             </div>
-            <Newsfeed/>
+                <Newsfeed/>  
             <u><h2 className="top-stories">TOP STORIES</h2></u>
-            <div className="container-body1">
+             <div className="container-body1">
                 <Body1 />
-            </div>
+            </div>  
             <Body2 />
-            <LineImage />
-            <h2 className="news-header">NEWS</h2>
-            <SocialMedia />
-            <News />
+             <LineImage /> 
+             <h2 className="news-header">NEWS</h2>
+             <SocialMedia /> 
+             <News /> 
             <LineImage />
             <h2 className="entertainment-header">ENTERTAINMENT</h2>
             <div className="miss-container">
@@ -43,13 +41,14 @@ const Home = ()=>{
             <h2 className="podcast-header">PODCASTS</h2>
             <Podcast />
             <LineImage />
-            <ListenLive/>
-            <LineImage />
+            
+           
             <div className="top-newsdisplay-container"> 
             
 
-            </div>
-            {/* news dsplay */}
+            </div> 
+              
+        
            
 
             

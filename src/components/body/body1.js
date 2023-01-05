@@ -1,5 +1,4 @@
 import React from "react"
-// import {NavLink} from "react-router-dom"
 import "./body.css"
 import radio4 from "./../images/radio4.jpg"
 import radio1 from "./../images/radio1.jpg"
@@ -28,14 +27,15 @@ const Body1 =()=>{
                 <img className="second-bodyimage" src={radio1} />
             </NavLink>
 
-            <div class="body1-third">
+
+            <NavLink to='/news2' class="body1-third">
 
                 <div class="ekeneth">
                     <h2>  The UK's Notorious Red list has dunked South Africa’s Tourism  into Trouble Waters</h2>
 
                 </div>
                 <img className="third-bodyimage" src={radioz} />
-            </div>
+            </NavLink>
 
 
 

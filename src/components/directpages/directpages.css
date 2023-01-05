@@ -2,18 +2,23 @@
     padding: 50px;
 background-color: rgba(243, 134, 0, 0.308);
 position: relative;
+background-image: url(./../images/blue7.jpg);
+
 
 }
 .playing-image{
-    width: 150px;
+    width: 300px;
+    border-radius: 10px;
     
     
 }
 .playing-imagediv{
     margin-left: 50%;
-    background-color: bisque;
+    
     position: absolute;
-    margin-top: 80px;
+    margin-top: -100px;
+
+
 }
 .caller-div{
     background-color:black;
@@ -21,23 +26,34 @@ position: relative;
     font-weight: bolder;
     font-size: larger;
     color: white;
+    padding: 15px;
+    
+    
 }
 .toplive{
     padding: 9px;
     margin-left: 50%;
-    width: 100px;
+    width: 110px;
     border: solid;
     border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    margin-top: -30px;
 }
 .onairnow-div{
     position: relative;
-    padding-left: 10%;
+    padding-left: 30%;
+    color: white;
 }
 .playlive-icon{
     position: absolute;
-    margin-left: -5%;
-    margin-top: 20px;
-    font-size: 80px;
+    margin-left: -6%;
+    margin-top: 15px;
+    font-size: 100px;
+    color: white;
+
+
 }
 .livett{
     margin-right: 3%;
@@ -53,8 +69,86 @@ position: relative;
     display: flex;
     gap: 5%;
     font-size: larger;
+    padding: 40px;
 }
 .img-new{
-    height: 400px;
+    height: 500px;
     position: relative;
+}
+.news-head{
+   text-align: center; 
+
+    
+}
+.music-name{
+    color: black;
+    position: absolute;
+    z-index: 2;
+    top: 190px;
+    font-weight: bold;
+    padding: 5px;
+}
+.now-playing{
+    color: darkorange;
+    font-size: 23px;
+    padding-left: 10px;
+}
+.contribute{
+    color: darkorange;
+    padding-left: 10px;
+    font-weight: lighter;
+}
+.pre-image{
+    width: 230px;
+    height: 200px;
+}
+.pre-container{
+    display: flex;
+    gap: 50px;
+    margin-left: 15%;
+}
+.pre-text{
+    margin-left: 15%;
+}
+.art-name{
+    font-weight: bold;
+}
+.host-container{
+    display: flex;
+    gap: 170px;
+    
+} 
+.host{
+    width: 550px;
+    height: 600px;
+    position: relative;
+
+}
+.host-div{
+    margin-left: 18%;
+    
+}
+.prog-name{
+    position: absolute;
+    z-index: 2;
+    padding: 10px;
+    background-color: white;
+    font-weight: bold;
+    border-bottom-right-radius: 20px;
+    font-size: 25px;
+}
+.prog-host{
+    position: absolute;
+    z-index: 2;
+    bottom: -170px;
+    background-color: black;
+    color: white;
+    width: 520.5px;
+    padding: 15px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.aboutshow-container{
+    margin-left: 18%;
 }

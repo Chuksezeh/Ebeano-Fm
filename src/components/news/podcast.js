@@ -19,6 +19,7 @@ const Podcast = ()=>{
               can stick notes into pretty much any old app, even if it's not really designed for
               </p>
             </div>
+            
 
             <div className="podcast-div">
               <img className="podcast-image" src={pod3}/>

@@ -1,15 +1,13 @@
-import {NavLink} from "react-router-dom";
-import Changer from "../layouts/changer";
-import Header from "../layouts/header";
-import OnAir from "../layouts/onair";
-import Newsfeed from "../layouts/newsfeed";
-import newsImage2 from "../images/news2.jpg";
+import Changer from "../layouts/changer"
+import Header from "../layouts/header"
+import Newsfeed from "../layouts/newsfeed"
+import OnAir from "../layouts/onair"
+import newsImage3 from "../images/Newspapers-.jpg"
 
-const News1 = ()=>{
-    
- return(
-    <>
-     <Changer />
+const News2 = ()=>{
+    return(
+        <>
+         <Changer />
             <div className="container-header">
 
                 <Header/>
@@ -18,10 +16,9 @@ const News1 = ()=>{
             <Newsfeed/>
 
             
-
         <h1 className="news-head">The UK's Notorious Red list has dunked South Africa’s Tourism  into Trouble Waters</h1>
         <div className="ne-container">
-        <img className="img-new" src={newsImage2} />
+        <img className="img-new" src={newsImage3} />
             
     
             <div>
@@ -67,9 +64,8 @@ If you prefer not to be bothered with pings and alerts and you don’t want to c
 Social Media
             </div>
         </div>
-    
-    </>
- )
-   
+
+        </>
+    )
 }
-export default News1
+export default News2

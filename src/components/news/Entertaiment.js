@@ -16,6 +16,7 @@ const Entertainment =()=>{
               But first, one big thing. You can write notes anywhere: on: you can
             </p>
           </div>
+          
 
           <div className="entertainment-div">
             <img className="entertainment-image" src={enterimage2} />

@@ -3,6 +3,7 @@ import missedimage2 from "./../images/radio3.jpg"
 import missedimage3 from "./../images/radio1.jpg"
 import missedimage4 from "./../images/enter1.jpg"
 import missedimage5 from "./../images/enter3.jpg"
+import {BsSearch} from "react-icons/bs"
 
 
 const ShowMissed =()=>{
@@ -11,6 +12,10 @@ const ShowMissed =()=>{
         <>
         <div className="display-missed">
             <u><h2 className="missed-header">MISSED A SHOW? LISTEN AGAIN</h2></u>
+            <div className="search-missed">
+              <input className="missed-btn" placeholder="Search"/>
+              <i className="search-icon"><BsSearch/></i> 
+            </div>
             <div className="missed1">
               <img className="missedimage1" src={missedimage1}/>
               

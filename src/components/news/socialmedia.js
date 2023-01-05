@@ -15,6 +15,7 @@ const SocialMedia = ()=>{
                 <i className="youtube-icon"> <AiFillYoutube size={50}/></i>
             </div>
         </>
+        
     )
 }
 export default SocialMedia

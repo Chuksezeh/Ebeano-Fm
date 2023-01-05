@@ -1,5 +1,4 @@
 import imgnews from "./../images/radio4.jpg"
-import {NavLink} from "react-router-dom";
 import Changer from "../layouts/changer";
 import Header from "../layouts/header";
 import OnAir from "../layouts/onair";
@@ -15,11 +14,11 @@ const NewsDisplay = ()=>{
             </div>
             <Newsfeed/>
 
-        <h1>The UK's Notorious Red list has dunked South Africa’s Tourism  into Trouble Waters</h1>
+        <h1 className="news-head">The UK's Notorious Red list has dunked South Africa’s Tourism  into Trouble Waters</h1>
         <div className="ne-container">
     
             <img className="img-new" src={imgnews}/>
-            <NavLink to='/'>go home</NavLink>
+            
             <div>
             Once upon a time, you had to sit by your TV or radio if you wanted to follow a breaking news story and get the most up-to-date information. These days, however, you have plenty of additional options, especially if you have a smartphone.
 
