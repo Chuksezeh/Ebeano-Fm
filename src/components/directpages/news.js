@@ -3,6 +3,7 @@ import Changer from "../layouts/changer";
 import Header from "../layouts/header";
 import OnAir from "../layouts/onair";
 import Newsfeed from "../layouts/newsfeed";
+import ReplyBox from "./replybox";
 const NewsDisplay = ()=>{
     return(
         <>
@@ -62,6 +63,7 @@ If you prefer not to be bothered with pings and alerts and you don’t want to c
 Social Media
             </div>
         </div>
+        <ReplyBox/>
         </>
     )
 }

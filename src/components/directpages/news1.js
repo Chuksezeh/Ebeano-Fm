@@ -4,6 +4,7 @@ import Header from "../layouts/header";
 import OnAir from "../layouts/onair";
 import Newsfeed from "../layouts/newsfeed";
 import newsImage2 from "../images/news2.jpg";
+import ReplyBox from "./replybox";
 
 const News1 = ()=>{
     
@@ -67,7 +68,7 @@ If you prefer not to be bothered with pings and alerts and you don’t want to c
 Social Media
             </div>
         </div>
-    
+    <ReplyBox/>
     </>
  )
    
