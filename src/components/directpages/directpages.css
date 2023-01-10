@@ -48,7 +48,7 @@ background-image: url(./../images/blue7.jpg);
 }
 .playlive-icon{
     position: absolute;
-    margin-left: -6%;
+    margin-left: -6.3%;
     margin-top: 15px;
     font-size: 100px;
     color: white;
@@ -76,7 +76,7 @@ background-image: url(./../images/blue7.jpg);
     position: relative;
 }
 .news-head{
-   text-align: center; 
+   margin-left: 2%; 
 
     
 }
@@ -105,7 +105,7 @@ background-image: url(./../images/blue7.jpg);
 .pre-container{
     display: flex;
     gap: 50px;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 .pre-text{
     margin-left: 15%;
@@ -116,6 +116,7 @@ background-image: url(./../images/blue7.jpg);
 .host-container{
     display: flex;
     gap: 170px;
+    margin-top: 70px;
     
 } 
 .host{
@@ -140,7 +141,7 @@ background-image: url(./../images/blue7.jpg);
 .prog-host{
     position: absolute;
     z-index: 2;
-    bottom: -170px;
+    bottom: -300px;
     background-color: black;
     color: white;
     width: 520.5px;
@@ -193,5 +194,77 @@ background-image: url(./../images/blue7.jpg);
 }
 .contact-head{
     
-    color: darkorange;
+    color: white;
+    background-color: darkorange;
+    width: 200px;
+    padding: 10px;
+    margin-left: 37%;
+
 }
+.topnews-time{
+    margin-left: 2.2%;
+}
+.newsdis-div{
+
+   width: 1000px;
+    
+}
+.newsdiv-container{
+    gap: 50px;
+    display: flex;
+    margin-left: 30px;
+    padding: 20px;
+    
+    
+}
+.newspage-pic1{
+    width: 1000px;
+    height: 600px;
+    padding: 10px;
+}
+.sidenews-pic{
+    width: 100px;
+}
+.side-news-div{
+padding: 20px;
+margin-top: 140px;
+}
+.newspage-head{
+    padding-left: 20px;
+}
+.newspage-time{
+    padding-left: 20px;
+}
+.newspage-text{
+    font-size: larger;
+    padding-left: 10px;
+}
+.sidenews-head{
+    background-color: black;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    
+}
+.scheduleday-container{
+padding: 10px;
+
+
+}
+.schedule-day{
+    height: 50px;
+    width: 130px;
+    margin-left: 15px;
+    font-weight: bolder;
+}
+.schedule-day:focus{
+    background-color: black;
+    color: white;
+}
+.schedule-head{
+    margin-left: 25px;
+}
+.schedule-date{
+    margin-left: 25px;
+}
+

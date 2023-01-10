@@ -1,9 +1,9 @@
-import Changer from "../layouts/changer"
-import Header from "../layouts/header"
-import Newsfeed from "../layouts/newsfeed"
-import OnAir from "../layouts/onair"
-import newsImage3 from "../images/Newspapers-.jpg"
-import ReplyBox from "./replybox"
+import Changer from "../layouts/changer";
+import Header from "../layouts/header";
+import Newsfeed from "../layouts/newsfeed";
+import OnAir from "../layouts/onair";
+import newsImage3 from "../images/Newspapers-.jpg";
+import ReplyBox from "./replybox";
 
 const News2 = ()=>{
     return(
@@ -18,6 +18,7 @@ const News2 = ()=>{
 
             
         <h1 className="news-head">The UK's Notorious Red list has dunked South Africa’s Tourism  into Trouble Waters</h1>
+        <p className="topnews-time">Friday, January 6, 2023 </p>
         <div className="ne-container">
         <img className="img-new" src={newsImage3} />
             

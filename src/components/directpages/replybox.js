@@ -18,7 +18,7 @@ const ReplyBox = ()=>{
         // </div>
         <div className="contactform-div">
                 <form>
-                    <h2 className="contact-head">Feel Free to Share Your Thought</h2>
+                    <h3 className="contact-head">Leave a Reply</h3>
                     <input className="contact-name" type="text" placeholder="Your Name" required />
                     <input className="contact-email" type="text" placeholder="Your Email" required />
                     <input className="contact-text" type="text" placeholder="Comment" required /><br />

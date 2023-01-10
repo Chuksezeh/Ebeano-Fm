@@ -12,7 +12,17 @@
 {
  background-color: darkorange;
  width: 420px; 
+ 
    
+}
+.eke:hover{
+    text-decoration: underline;
+}
+.ekene:hover{
+    text-decoration: underline; 
+}
+.ekeneth:hover{
+    text-decoration: underline;
 }
 .first-bodyimage,
 .second-bodyimage,
@@ -72,8 +82,13 @@ background-color: rgba(15, 14, 14, 0.678);
     
 }
 .schedule{
-    margin-left: 350%;
+    margin-left: 20%;
     cursor: default;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+    
 }
 .listen2{
     border: solid white;
@@ -84,6 +99,8 @@ background-color: rgba(15, 14, 14, 0.678);
     position: relative;
     cursor: default;
     margin-left: 35%;
+    text-decoration: none;
+    color: black;
 
 }
 .listen2:hover{
@@ -100,18 +117,19 @@ background-color: rgba(0, 0, 0, 0.11);
    top: 60%; 
    position: absolute;
    padding: 10px;
-   margin-left: 14%;
+   margin-left: 13%;
    font-weight: bold;
 }
 
 .body3{
     position: relative;
+    color: black;
 }
 .ltime{
     position:absolute ;
     top: 65%;
     padding: 19px;
-    margin-left: 13%;
+    margin-left: 12%;
     
 }
 .wname{
@@ -138,3 +156,4 @@ background-color: rgba(0, 0, 0, 0.11);
     margin-top: 60%;
 
 }
+

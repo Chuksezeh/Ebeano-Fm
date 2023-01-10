@@ -1,9 +1,9 @@
-import React from "react"
-import "./body.css"
-import radio4 from "./../images/radio4.jpg"
-import radio1 from "./../images/radio1.jpg"
-import radioz from "./../images/Newspapers-.jpg"
-import { NavLink } from "react-router-dom"
+import React from "react";
+import "./body.css";
+import radio4 from "./../images/radio4.jpg";
+import radio1 from "./../images/radio1.jpg";
+import radioz from "./../images/Newspapers-.jpg";
+import { NavLink } from "react-router-dom";
 const Body1 =()=>{
     return(
         <>

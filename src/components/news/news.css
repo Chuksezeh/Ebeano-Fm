@@ -2,17 +2,19 @@
 .lineimage{
     height: 30px;
     width: 1100px;
-    margin-left: 18%;
+    margin-left: 10%;
 }
 .newsimage-container{
     width: 315px;
+    text-decoration: none;
+    color: black;
 }
 .news-header{
     margin-left: 15%;
 }
 .new-container,.second-news{
     display: inline-flex;
-    margin-left: 15%;
+    margin-left: 10%;
     gap: 8%;
     position: relative;
 }
@@ -33,7 +35,7 @@
     box-shadow:-1px 1px 5px 1px;
     position: absolute;
     z-index: 1;
-    left:86% ;
+    left:79% ;
     display: grid;
     padding: 10px;
     gap: 10px;
@@ -123,7 +125,7 @@ color: darkorange;
 }
 .entertainment-container{
     display: flex;
-    margin-left: 15%;
+    margin-left: 10%;
     width: 1100px;
     gap: 60px;
     cursor: default;
@@ -134,7 +136,7 @@ color: darkorange;
     display: flex;
     width: 1100px;
     gap: 60px;
-    margin-left: 15%;
+    margin-left: 10%;
     cursor: default;
     position: relative;
     
@@ -142,7 +144,7 @@ color: darkorange;
 }
 .miss-container{
     position: absolute;
-    margin-left: 85%;
+    margin-left: 77%;
 
     width: 200px;
     padding: 10px;
@@ -184,7 +186,7 @@ color: darkorange;
 .podcast-container{
     display: flex;
     gap: 60px;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 .podcast-div{
 width:230px ;
@@ -212,7 +214,7 @@ color: darkorange;
     
 }
 .search-icon{
-    background-color: bisque;
+    background-color: antiquewhite;
     font-size: x-large;
     padding: 9px;
     position: absolute;

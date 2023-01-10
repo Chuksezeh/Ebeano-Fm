@@ -12,7 +12,7 @@ const Body2 = ()=>{
                 <div className="first-body2container">
                     <div className="body22">
                         <h2 className="program-header">PROGRAMS</h2>
-                        <u><h3 className="schedule">Schedule</h3></u>
+                        <NavLink to="/schedule" className="schedule">Schedule</NavLink>
             
                         <NavLink to="/listenlive" className="listen2">Listen <i className="icon-play"><GrPlayFill/></i></NavLink>
                         

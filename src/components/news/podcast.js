@@ -1,7 +1,7 @@
-import pod1 from "./../images/enter4.jpg"
-import pod2 from "./../images/enter5.jpg"
-import pod3 from "./../images/radio1.jpg"
-import pod4 from "./../images/imagess.jpg"
+import pod1 from "./../images/enter4.jpg";
+import pod2 from "./../images/enter5.jpg";
+import pod3 from "./../images/radio1.jpg";
+import pod4 from "./../images/imagess.jpg";
 const Podcast = ()=>{
     return(
         <>

@@ -1,9 +1,10 @@
 import newsImage1 from "./../images/Newspapers-.jpg"
 import newsImage2 from "./../images/news1.jpg"
 import newsImage3 from "./../images/news2.jpg"
-import newsImage4 from "./../images/news3.jpg"
-import newsImage5 from "./../images/news4.jpg"
-import newsImage6 from "./../images/news5.jpg"
+import newsImage4 from "./../images/news3.jpg";
+import newsImage5 from "./../images/news4.jpg";
+import newsImage6 from "./../images/news5.jpg";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -14,10 +15,10 @@ const News = ()=>{
     return(
         <>
             <div className="new-container">
-                <div className="newsimage-container">
+                <NavLink to="/newspage" className="newsimage-container">
                     <img className="newsimage" src={newsImage1} />
                     <p className="news-p">Nigerian Military, Security Agencies Not Under Pressure To Compromise 2023 Elections</p>
-                </div>
+                </NavLink>
 
                 <div className="newsimage-container">
                     <img className="newsimage" src={newsImage2} />

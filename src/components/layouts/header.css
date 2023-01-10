@@ -131,6 +131,7 @@ body{
       box-shadow: 0px 1px 3px;
       border-bottom-right-radius: 8px;
       border-bottom-left-radius: 8px;
+      cursor: pointer;
       
       
     }
@@ -149,12 +150,22 @@ body{
       margin-right: 10px;
       position: relative;
     }
+    .head-roll{
+      font-weight: bold;
+      padding-right: 40px;
+      margin-right: 10px;
+      position: relative;
+    }
     .icon-scroll{
       padding-right: 20px;
       color: white;
       margin-top: 4px;
       position: absolute;
       margin-left: 14px;
+    }
+    .newsfeed-nav{
+      text-decoration: none;
+      color: black;
     }
 
 /* changer */
@@ -169,7 +180,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -3.9%;
+    margin-top: -2.4%;
     z-index: 2;
     margin-left: 20px;
   }
@@ -218,10 +229,10 @@ body{
   .show-time{
     background-color:darkorange;
     position: absolute;
-    right: 96.1%;
+    right: 95.7%;
     padding: 8px;
     height: 22px;
-    top: 44%;
+    top: 48%;
     color: white;
     font-weight: bold;
     

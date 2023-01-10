@@ -1,9 +1,9 @@
-import enterimage1 from "./../images/enter1.jpg"
-import enterimage2 from "./../images/enter2.jpg"
-import enterimage3 from "./../images/enter3.jpg"
-import enterimage4 from "./../images/enter4.jpg"
-import enterimage5 from "./../images/enter5.jpg"
-import enterimage6 from "./../images/enter6.jpg"
+import enterimage1 from "./../images/enter1.jpg";
+import enterimage2 from "./../images/enter2.jpg";
+import enterimage3 from "./../images/enter3.jpg";
+import enterimage4 from "./../images/enter4.jpg";
+import enterimage5 from "./../images/enter5.jpg";
+import enterimage6 from "./../images/enter6.jpg";
 
 const Entertainment =()=>{
     return(

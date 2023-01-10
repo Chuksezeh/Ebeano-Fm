@@ -1,8 +1,8 @@
-import {AiFillFacebook} from "react-icons/ai"
-import {AiFillInstagram} from "react-icons/ai"
-import {AiOutlineTwitter}from "react-icons/ai"
-import {FaTiktok} from "react-icons/fa"
-import {AiFillYoutube} from "react-icons/ai"
+import {AiFillFacebook} from "react-icons/ai";
+import {AiFillInstagram} from "react-icons/ai";
+import {AiOutlineTwitter}from "react-icons/ai";
+import {FaTiktok} from "react-icons/fa";
+import {AiFillYoutube} from "react-icons/ai";
 const SocialMedia = ()=>{
     return (
         <>

@@ -11,15 +11,15 @@ const Header = ()=>{
                 <ul className="nav-list">
                     <NavLink className="take-home" to='/'>Home</NavLink>
                     <li>Music</li>
-                    <li>Ebeano Stories</li>
+                    <li>Stories</li>
                     <li>News</li>
-                    <li>Listen Again</li>
+                    <li>Listen </li>
                     <li>Podcast</li>
                 </ul>
             </div>
 
         
-            {/* <NavLink to='/'>go home</NavLink> */}
+            
         </>
     )
 }

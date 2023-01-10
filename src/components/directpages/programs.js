@@ -1,10 +1,10 @@
-import Changer from "../layouts/changer"
-import Header from "../layouts/header"
-import Newsfeed from "../layouts/newsfeed"
-import OnAir from "../layouts/onair"
-import photo2 from "../images/black1.jpg"
-import LineImage from "../news/lineImage"
-import ShowMissed from "../news/showmissed"
+import Changer from "../layouts/changer";
+import Header from "../layouts/header";
+import Newsfeed from "../layouts/newsfeed";
+import OnAir from "../layouts/onair";
+import photo2 from "../images/black1.jpg";
+// import LineImage from "../news/lineImage"
+import ShowMissed from "../news/showmissed";
 
 const Programs =()=>{
     return(
@@ -16,7 +16,7 @@ const Programs =()=>{
                 <OnAir />
             </div>
             <Newsfeed/>
-            <LineImage />
+            {/* <LineImage /> */}
             
             <div className="host-container">
                 <div className="host-div">

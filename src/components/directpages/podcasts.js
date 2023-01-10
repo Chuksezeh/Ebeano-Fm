@@ -1,8 +1,8 @@
-import snoop from "../images/snoop.jpg"
-import timaya from "../images/timaya.jpg"
-import beyonce from "../images/beyon.jpg"
-import africa from "../images/africachina.jpg"
-import preimage1 from "../images/tuface.jpg"
+import snoop from "../images/snoop.jpg";
+import timaya from "../images/timaya.jpg";
+import beyonce from "../images/beyon.jpg";
+import africa from "../images/africachina.jpg";
+import preimage1 from "../images/tuface.jpg";
 const Podcasts =()=>{
     return(
         <>

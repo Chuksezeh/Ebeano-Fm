@@ -38,7 +38,7 @@ const Home = ()=>{
             </div>
             <Entertainment />
             <LineImage />
-            <h2 className="podcast-header">PODCASTS</h2>
+            <h2 className="podcast-header">POLITICS</h2>
             <Podcast />
             <LineImage />
             

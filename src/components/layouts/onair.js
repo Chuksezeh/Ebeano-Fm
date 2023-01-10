@@ -1,9 +1,9 @@
 
-import Presenter from "./../images/radio3.jpg"
-import {GoPlay} from "react-icons/go"
-import {CiMicrophoneOn} from "react-icons/ci"
-import{ImClock} from "react-icons/im"
-import { NavLink } from "react-router-dom"
+import Presenter from "./../images/radio3.jpg";
+import {GoPlay} from "react-icons/go";
+import {CiMicrophoneOn} from "react-icons/ci";
+import{ImClock} from "react-icons/im";
+import { NavLink } from "react-router-dom";
 const OnAir = ()=>{
     return(
         <>

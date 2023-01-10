@@ -1,9 +1,9 @@
-import missedimage1 from "./../images/radio4.jpg"
-import missedimage2 from "./../images/radio3.jpg"
-import missedimage3 from "./../images/radio1.jpg"
-import missedimage4 from "./../images/enter1.jpg"
-import missedimage5 from "./../images/enter3.jpg"
-import {BsSearch} from "react-icons/bs"
+import missedimage1 from "./../images/radio4.jpg";
+import missedimage2 from "./../images/radio3.jpg";
+import missedimage3 from "./../images/radio1.jpg";
+import missedimage4 from "./../images/enter1.jpg";
+import missedimage5 from "./../images/enter3.jpg";
+import {BsSearch} from "react-icons/bs";
 
 
 const ShowMissed =()=>{
