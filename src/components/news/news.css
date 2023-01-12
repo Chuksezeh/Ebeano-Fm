@@ -144,7 +144,7 @@ color: darkorange;
 }
 .miss-container{
     position: absolute;
-    margin-left: 77%;
+    margin-left: 70%;
 
     width: 200px;
     padding: 10px;
@@ -153,6 +153,9 @@ color: darkorange;
 .display-missed{
     display: grid;
     gap: 5px;
+    cursor: pointer;
+    left: 70%;
+    position: absolute;
     
 }
 .missed1{

@@ -1,0 +1,36 @@
+
+.monday-div{
+    display: flex;
+    
+    width: 60%;
+    margin-left: 1.5%;
+    
+    gap: 15px;
+}
+.monday-time{
+    margin-left: 1.5%;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-top-right-radius:20px ;
+}
+.vl{
+    border-left: 6px solid rgba(13, 13, 87, 0.877);
+    height: 180px;
+    position: absolute;
+    left: 63%;
+    
+}
+.monday1-image{
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+    
+}
+.monday-all{
+ display: flex;
+}
+.underline{
+    width: 1170px;
+    margin-left: 30px;
+}

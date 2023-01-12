@@ -1,6 +1,12 @@
 import Newsfeed from "../layouts/newsfeed"
 import ShowMissed from "../news/showmissed"
+import Monday from "./daysprogram/monday"
 import MainNews from "./secondheader"
+import {AiFillFacebook} from "react-icons/ai";
+import {AiFillInstagram} from "react-icons/ai";
+import {AiOutlineTwitter}from "react-icons/ai";
+import {FaTiktok} from "react-icons/fa";
+import {AiFillYoutube} from "react-icons/ai";
 
 const Schedule = ()=>{
     return(
@@ -21,9 +27,18 @@ const Schedule = ()=>{
     <button className="schedule-day">Saturday</button>
     <button className="schedule-day" >Sunday</button>
     </div>
-    <h2 className="schedule-date">Monday, January 09, 2023</h2>
+    <div className="schedule-social">
+    
+                <i className="facebook-ico"><AiFillFacebook size={20}  /></i>
+                <i className="instagram-icon"> <AiFillInstagram size={20}/> </i>
+                <i className="twitter-icon"> <AiOutlineTwitter size={20} /></i>
+                <i className="tiktok-icon"><FaTiktok size={20}/> </i>
+                <i className="youtube-icon"> <AiFillYoutube size={20}/></i>
+    </div>
+    
     
   </div>
+  <Monday/>
   
 
         </>

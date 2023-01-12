@@ -4,9 +4,16 @@ import missedimage3 from "./../images/radio1.jpg";
 import missedimage4 from "./../images/enter1.jpg";
 import missedimage5 from "./../images/enter3.jpg";
 import {BsSearch} from "react-icons/bs";
+import { NavLink } from "react-router-dom";
+import React,{useState} from "react";
+import Popup from "./../directpages/player"
 
 
 const ShowMissed =()=>{
+  const [isOPen, setIsopen] = useState(false)
+  const togglePopup = ()=>{
+    setIsopen(!isOPen);
+  }
 
     return(
         <>
@@ -16,11 +23,11 @@ const ShowMissed =()=>{
               <input className="missed-btn" placeholder="Search"/>
               <i className="search-icon"><BsSearch/></i> 
             </div>
-            <div className="missed1">
+          <div className="missed1" onClick={togglePopup}>{isOPen && <Popup/>}
               <img className="missedimage1" src={missedimage1}/>
-              
-              <h3 className="missed-subhead">Breakfast Show</h3>
-              <span className="missed-time">10PM -10/10/2022</span>
+              {/* <NavLink to="/player"><h3  className="missed-subhead">Breakfast Show</h3></NavLink> */}
+              <h3  className="missed-subhead">Breakfast Show</h3>
+              <span className="missed-time">10PM -10/10/2022</span><></>
             </div>
 
             <div className="missed1">

@@ -10,7 +10,7 @@ import ListenLive from './components/directpages/listenlive';
 import Programs from './components/directpages/programs';
 import NewsPage from './components/directpages/newspage';
 import Schedule from './components/directpages/schedule';
-
+import Player from './components/directpages/player';
 
 
 function App() {
@@ -27,6 +27,9 @@ function App() {
         <Route path='/newspage' element={<NewsPage />} />
         <Route path='/newspage-1' element={<NewsPage />} />
         <Route path='/schedule' element={<Schedule />} />
+        <Route path='/player' element={<Player />} />
+        <Route path='/schedule' element={<Schedule />} />
+        
 
 
 

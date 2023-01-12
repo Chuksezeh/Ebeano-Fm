@@ -5,6 +5,7 @@ import Changer from "./layouts/changer";
 import Header from "./layouts/header";
 import Newsfeed from "./layouts/newsfeed";
 import OnAir from "./layouts/onair";
+import Presenters from "./layouts/presenters";
 import Entertainment from "./news/Entertaiment";
 import LineImage from "./news/lineImage";
 import News from "./news/newss";
@@ -41,6 +42,7 @@ const Home = ()=>{
             <h2 className="podcast-header">POLITICS</h2>
             <Podcast />
             <LineImage />
+            <Presenters/>
             
            
             <div className="top-newsdisplay-container"> 
