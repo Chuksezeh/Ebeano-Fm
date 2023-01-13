@@ -185,7 +185,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -3.9%;
+    margin-top: -0.6%;
     z-index: 2;
     margin-left: 20px;
   }
@@ -237,7 +237,7 @@ body{
     right: 95.7%;
     padding: 8px;
     height: 22px;
-    top: 44%;
+    top: 52%;
     color: white;
     font-weight: bold;
     
@@ -338,4 +338,46 @@ body{
 .job-drop:hover .job-list{
   display: block;
   color: white;
+}
+.footer-container{
+background-color: rgb(3, 3, 24);
+padding: 20px;
+max-width: 100%;
+color: white;
+height: 400px;
+margin-top: 90px;
+}
+.footer-div{
+  display: flex;
+}
+.footer-head{
+  margin-left: 5%;
+}
+.footer-text-div{
+  margin-left: 5%;
+
+}
+.footer-text{
+font-size: 15px;
+}
+.footer-btn{
+ margin-left: 15%;
+ background-color: darkorange;
+ padding: 10px;
+ font-size: 31px;
+ width: 355px;
+ border-radius: 20px ;
+ 
+}
+.footer-second-div{
+  margin-left: 13%;
+
+}
+.footer-email, .footer-phone, .footer-address{
+font-weight: bold;
+}
+.one, .two, .three{
+  margin-left: 20px;
+  font-weight: lighter;
+  color: darkorange;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import Body1 from "./body/body1";
 import Body2 from "./body/body2";
 import Changer from "./layouts/changer";
+import Footer from "./layouts/footer";
 import Header from "./layouts/header";
 import Newsfeed from "./layouts/newsfeed";
 import OnAir from "./layouts/onair";
@@ -49,7 +50,7 @@ const Home = ()=>{
             
 
             </div> 
-              
+              <Footer/>
         
            
 
