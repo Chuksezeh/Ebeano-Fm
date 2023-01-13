@@ -4,6 +4,7 @@ import Newsfeed from "../layouts/newsfeed";
 import OnAir from "../layouts/onair";
 import newsImage3 from "../images/Newspapers-.jpg";
 import ReplyBox from "./replybox";
+import Footer from "../layouts/footer";
 
 const News2 = ()=>{
     return(
@@ -67,6 +68,7 @@ Social Media
             </div>
         </div>
         <ReplyBox/>
+        <Footer/>
 
         </>
     )

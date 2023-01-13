@@ -1,17 +1,16 @@
-
 import "./daysprogram.css";
 import mondaypic from "../../images/enter5.jpg";
 import mondaypic1 from "../../images/news4.jpg";
 import mondaypic2 from "../../images/black2.jpg";
 import mondaypic4 from "../../images/black4.jpg";
 import ShowMissed from "../../news/showmissed";
-const Tuesday =()=>{
+const Saturday =()=>{
 
 
     return(
         <>
         <div>
-        <h2 className="schedule-date">Tuesday, January 12, 2023</h2> 
+        <h2 className="schedule-date">Saturday, January 19, 2023</h2> 
         </div>
         <div className=" monday-all">
         
@@ -21,9 +20,9 @@ const Tuesday =()=>{
             <div className="monday-div">
                 <img className="monday1-image" src={mondaypic4} />
                 <span className="monday-article">each day, or watch them at any time if you sign in with your cable provider’s information. Google News If you have an Android device, Google News is probably already built in, and you can adjust your settings to help ensure you stay current with breaking news. You can access it by swiping right if you’re on the home screen. If you own one of the few devices that didn’t come with Google News built in, you can download the app for free from the Google</span>
-            </div>
+            </div> 
             <hr className="underline"/>
-             <br/>
+            <br/>
 
             <div className="vl"></div>
             <span className="monday-time">7:00-9:00 AM</span>
@@ -82,4 +81,4 @@ const Tuesday =()=>{
         
     )
 }
-export default Tuesday
+export default Saturday

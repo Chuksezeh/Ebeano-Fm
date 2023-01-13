@@ -4,7 +4,7 @@ const NoFound = ()=>{
         <>
         <div>
 
-            <h1>
+            <h1 className="">
                 PAGE NOT FOUND 404
             </h1>
         </div>

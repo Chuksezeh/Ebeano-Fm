@@ -1,17 +1,16 @@
-
 import "./daysprogram.css";
 import mondaypic from "../../images/enter5.jpg";
 import mondaypic1 from "../../images/news4.jpg";
 import mondaypic2 from "../../images/black2.jpg";
 import mondaypic4 from "../../images/black4.jpg";
 import ShowMissed from "../../news/showmissed";
-const Tuesday =()=>{
+const Friday =()=>{
 
 
     return(
         <>
         <div>
-        <h2 className="schedule-date">Tuesday, January 12, 2023</h2> 
+        <h2 className="schedule-date">Friday, January 17, 2023</h2> 
         </div>
         <div className=" monday-all">
         
@@ -82,4 +81,4 @@ const Tuesday =()=>{
         
     )
 }
-export default Tuesday
+export default Friday

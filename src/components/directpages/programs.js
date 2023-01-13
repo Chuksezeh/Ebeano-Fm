@@ -5,6 +5,7 @@ import OnAir from "../layouts/onair";
 import photo2 from "../images/black1.jpg";
 // import LineImage from "../news/lineImage"
 import ShowMissed from "../news/showmissed";
+import Footer from "../layouts/footer";
 
 const Programs =()=>{
     return(
@@ -40,6 +41,7 @@ const Programs =()=>{
                 </div>
 
             </div>
+          <Footer/>
 
         </>
     )

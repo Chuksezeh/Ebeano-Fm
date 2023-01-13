@@ -30,6 +30,7 @@ function App() {
         <Route path='/player' element={<Player />} />
         <Route path='/schedule' element={<Schedule />} />
         
+        
 
 
 

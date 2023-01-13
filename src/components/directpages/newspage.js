@@ -5,6 +5,7 @@ import sidewspic1 from "../images/news1.jpg";
 import sidewspic2 from "../images/news2.jpg";
 import sidewspic3 from "../images/news3.jpg";
 import ReplyBox from "./replybox";
+import Footer from "../layouts/footer";
 
 
 const NewsPage =()=>{
@@ -47,6 +48,7 @@ return(
 
     </div> <br/><br/><br/><br/>
     <ReplyBox/>
+    <Footer/>
   </>
 
 )

@@ -4,6 +4,7 @@ import Header from "../layouts/header";
 import OnAir from "../layouts/onair";
 import Newsfeed from "../layouts/newsfeed";
 import ReplyBox from "./replybox";
+import Footer from "../layouts/footer";
 const NewsDisplay = ()=>{
     return(
         <>
@@ -65,6 +66,7 @@ Social Media
             </div>
         </div>
         <ReplyBox/>
+        <Footer/>
         </>
     )
 }
