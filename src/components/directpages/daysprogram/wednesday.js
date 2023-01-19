@@ -18,7 +18,7 @@ const Wednesday =()=>{
             <div className="vl"></div>
             <span className="monday-time">5:00 -7:00 AM</span>
             <div className="monday-div">
-                <img className="monday1-image" src={mondaypic4} />
+                <img className="monday1-image" src={mondaypic2} />
                 <span className="monday-article">each day, or watch them at any time if you sign in with your cable provider’s information. Google News If you have an Android device, Google News is probably already built in, and you can adjust your settings to help ensure you stay current with breaking news. You can access it by swiping right if you’re on the home screen. If you own one of the few devices that didn’t come with Google News built in, you can download the app for free from the Google</span>
             </div>
             <hr className="underline"/>

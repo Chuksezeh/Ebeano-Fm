@@ -74,7 +74,7 @@ const Monday =()=>{
 
 
             </div>
-            <ShowMissed/> 
+            <ShowMissed/>  
         </div>
         </>
         

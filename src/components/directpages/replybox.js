@@ -21,7 +21,7 @@ const ReplyBox = ()=>{
                     <h3 className="contact-head">Leave a Reply</h3>
                     <input className="contact-name" type="text" placeholder="Your Name" required />
                     <input className="contact-email" type="text" placeholder="Your Email" required />
-                    <input className="contact-text" type="text" placeholder="Comment" required /><br />
+                    <textarea className="contact-text" type="text" placeholder="Comment" required /><br />
                     <button className="contact-btn">Post Comment</button>
                 </form>
 

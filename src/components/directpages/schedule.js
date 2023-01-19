@@ -58,7 +58,7 @@ const Schedule = ()=>{
       )
     }else{
       return(
-        <Tuesday/>
+        <Monday/>
       )
     }
   
@@ -92,16 +92,16 @@ const Schedule = ()=>{
     
     
   </div>
-  {
-    componentShow() 
-  }
-  {/* <Monday/> */}
-  <Footer/>
+ 
   
   {
     componentShow() 
   }
-        </>
+     
+  
+  <Footer/>
+  
+    </>
     )
 }
 export default Schedule

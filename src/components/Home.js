@@ -1,6 +1,7 @@
 import React from "react";
 import Body1 from "./body/body1";
 import Body2 from "./body/body2";
+import ContactShow from "./directpages/contactshow";
 import Changer from "./layouts/changer";
 import Footer from "./layouts/footer";
 import Header from "./layouts/header";
@@ -50,6 +51,7 @@ const Home = ()=>{
             
 
             </div> 
+            
               <Footer/>
         
            

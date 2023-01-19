@@ -115,8 +115,9 @@ max-width: 100%;
     height: 200px;
 }
 .pre-container{
-    display: flex;
-    gap: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0px;
     margin-left: 10%;
 }
 .pre-text{
@@ -355,6 +356,228 @@ padding: 10px;
     transform: scale( 1.1, 1);
     transition: 0.5s; 
 }
+.getjob-container{
+    margin-top: 4%;
+}
+.jobsearch-input{
+  width: 61%;
+  margin-left: 15%;
+  height: 50px;
+  border-right: none;  
+}
+.jobsearch-btn{
+width: 6.7%;
+height: 56px;
+border-left: none;
+background-color: darkorange;
+color: white;
 
+}
+.jobsearch-image{
+    width: 68%;
+    height: 650px;
+    margin-left: 15%;
+    position: relative;
+
+}
+.jobsearch-text{
+position: absolute;
+margin-left: 15%;
+z-index: 1;
+background-color: rgba(0, 0, 0, 0.479);
+color: white;
+width: 68%;
+height: 420px;
+text-align: center;
+padding-top: 12%;
+
+}
+.search-h1{
+    font-size: 60px;
+}
+.search-p{
+    font-size: 30px;
+}
+.joblisting-container{
+    background-color: antiquewhite;
+    padding: 5px;
+   
+}
+.joblisting-image{
+    width: 265px;
+    height: 170px;
+    padding: 5px;
+}
+.joblisting-text{
+    padding: 10px;
+    
+}
+.joblisting-all{
+   display: flex;
+   margin-left: 15%;
+   gap: 3.2%;
+   margin-top: 20px;
+}
+.jobcompany-name, 
+.job-position,
+.job-qualify
+{
+    font-weight: bold;
+    padding: 5px;
+}
+.view-btn{
+    margin-left: 50px;
+    height: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px 1px;
+    border: darkorange;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 6px;
+    
+}
+.view-btn:hover{
+    transform: scale(1.1);
+}
+.job-category{
+    margin-left: 15%;
+}
+.showdetail-container{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.com-name{
+    font-weight: bolder;
+}
+.bag-icon{
+    padding-left: 10px;
+}
+.apply-here{
+    background-color: antiquewhite;
+    padding: 15px;
+    width: 90px;
+    font-weight: bold;
+}
+.name-label{
+
+}
+.firstname-put{
+width: 44.2%;
+padding: 10px;
+}
+.lastname-put{
+    width: 44.2%;
+    margin-left: 50px;
+    padding: 10px;  
+}
+.email-put, .phone-put, .position-put{
+    width: 97%;
+    padding: 10px;
+}
+.additional-put{
+    width: 97%;
+    height: 200px;
+    padding: 10px;
+}
+.resume-div{
+   display: flex;
+   gap: 28%; 
+   margin-top: 9px;
+}
+.upload-btn{
+    padding: 5px;
+}
+.submitform-btn{
+    padding: 12px;
+    margin-left: 29%;
+    background-color:rgb(206, 14, 14);
+    color: white;
+    border-radius: 10px;
+}
+.applyform-container{
+    background-color: rgba(240, 255, 255, 0.178);
+    padding: 20px;
+    width: 900px;
+}
+.contactshow-container{
+    margin-right: 10%;
+    background-color:white;
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 3;
+    right: 50px;
+
+}
+.contactshow-head{
+    color: brown;
+    
+}
+.contactshow-call, .contactshow-email, .contactshow-whatssap{
+    color: black;
+}
+.tv-container{
+    margin-top: 4.5%;
+    margin-left: 10%;
+    width: 85%;
+    
+}
+.watchtv-container{
+    text-align: center;
+}
+.watch-tv{
+    font-size: 50px;
+    background-color: bisque;
+    padding: 10px;
+}
+.gets-you{
+    font-size: 30px;
+}
+.about-image{
+margin-left: 35%;  
+}
+.transmit-head{
+    text-align: center;
+    font-size: 30px;
+}
+.about-text   {
+    text-align: center;
+    font-size: 20px;
+}
+.about-fre{
+    color: red;
+}
+.newsletter-text{
+    text-align: center;
+    font-size: 20px;
+}
+.newsletter{
+    
+    margin-left: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.newsletter-text1{
+    height: 50px;
+    width: 800px;
+    
+}
+.newsletter-btn{
+    padding: 19px;
+    width: 100px;
+    background-color: brown;
+    color:white;
+    border-left: 30px;
+    border-start-end-radius: 10px;
+    border-end-end-radius: 10px;
+}
+.showjob2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+}
 
  

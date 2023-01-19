@@ -30,11 +30,11 @@ const Podcasts =()=>{
                         <p className="art-name">Beyonce</p>
                         <p>Am Sorry</p>
                     </div>
-                    <div>
+                    {/* <div>
                         <img className="pre-image" src={timaya} />
                         <p className="art-name">Timaya</p>
                         <p>Portharcourt Boys</p>
-                    </div>
+                    </div> */}
                 </div>
 
 

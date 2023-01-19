@@ -7,30 +7,46 @@ import {BsSearch} from "react-icons/bs";
 import { NavLink } from "react-router-dom";
 import React,{useState} from "react";
 import Popup from "./../directpages/player"
+import{ missedData } from "../directpages/missdata"
 
 
 const ShowMissed =()=>{
-  const [isOPen, setIsopen] = useState(false)
+  const [isOPen, setIsopen] = useState('')
   const togglePopup = ()=>{
     setIsopen(!isOPen);
+
   }
+  
+  const [missedName, setMissedName] = useState('')
+  // console.log("data",missedData)
+//  const [query, setQuery] = useState("")
+  // missedData.filter(data=>data.missedName.toLocaleLowerCase().includes('d'))
+  // console.log(missedName)
+  //missedData.splice(0,8);
 
     return(
         <>
         <div className="display-missed">
             <u><h2 className="missed-header">MISSED A SHOW? LISTEN AGAIN</h2></u>
             <div className="search-missed">
-              <input className="missed-btn" placeholder="Search"/>
+              <input className="missed-btn" placeholder="Search..." onChange={(e) => setMissedName(e.target.value)}/>
               <i className="search-icon"><BsSearch/></i> 
             </div>
-          <div className="missed1" onClick={togglePopup}>{isOPen && <Popup/>}
-              <img className="missedimage1" src={missedimage1}/>
-              {/* <NavLink to="/player"><h3  className="missed-subhead">Breakfast Show</h3></NavLink> */}
-              <h3  className="missed-subhead">Breakfast Show</h3>
-              <span className="missed-time">10PM -10/10/2022</span><></>
+            <div>
+              {missedData.filter((data)=>data.missedName.toLowerCase().includes(missedName)).map((name) =>(
+                <div className="missed1" onClick={togglePopup} key={name.id}>
+                {isOPen && <Popup/>}
+                  <img className="missedimage1" src={missedimage1}/>
+                  {/* <NavLink to="/player"><h3  className="missed-subhead">Breakfast Show</h3></NavLink> */}
+                  <h3 key={name.id} className="missed-subhead">{name.missedName}</h3>
+                  <span className="missed-time">10PM -10/10/2022</span><></>
+                </div>
+                
+              ))}
             </div>
+          
 
-            <div className="missed1">
+            {/* <div className="missed1">
               <img className="missedimage1" src={missedimage2}/>
               
               <h3 className="missed-subhead">Sports Show</h3>
@@ -56,7 +72,7 @@ const ShowMissed =()=>{
               
               <h3 className="missed-subhead">Road Show</h3>
               <span className="missed-time">10PM -10/10/2022</span>
-            </div>
+            </div> */}
 
             
 

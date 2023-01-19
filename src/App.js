@@ -11,6 +11,15 @@ import Programs from './components/directpages/programs';
 import NewsPage from './components/directpages/newspage';
 import Schedule from './components/directpages/schedule';
 import Player from './components/directpages/player';
+import GetJobs from './components/directpages/getjobdetails';
+import ShowJobDetails from './components/directpages/showjobdetails';
+import News from './components/news/newss';
+import SearchData from './components/directpages/searchdata';
+import AboutUs from './components/directpages/aboutus';
+import AdvertRAte from './components/directpages/Advertrate';
+import Program2 from './components/directpages/program2';
+import Program3 from './components/directpages/program3';
+import Program4 from './components/directpages/program4';
 
 
 function App() {
@@ -29,6 +38,19 @@ function App() {
         <Route path='/schedule' element={<Schedule />} />
         <Route path='/player' element={<Player />} />
         <Route path='/schedule' element={<Schedule />} />
+        <Route path='/getjobs' element={<GetJobs />} />
+        <Route path='/showjobdetails' element={<ShowJobDetails />} />
+        <Route path='/newspage' element={<NewsPage />} />
+        <Route path='/news' element={<News />} />
+        <Route path='/searchdata' element={<SearchData />} />
+        <Route path='/aboutus' element={<AboutUs />} />
+        <Route path='/advertrate' element={<AdvertRAte />} />
+        <Route path='/program2' element={<Program2 />} />
+        <Route path='/program3' element={<Program3 />} />
+        <Route path='/program4' element={<Program4 />} />
+        
+
+
         
         
 

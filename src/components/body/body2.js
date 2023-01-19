@@ -25,32 +25,32 @@ const Body2 = ()=>{
                             
                         </NavLink>
 
-                        <div className="body4">
+                        <NavLink to="/program2" className="body4">
 
                             <img className="img2" src={photo3} />
 
                             <span className="lnight">Sports Show</span>
                             <span className="ltime">6:00 PM - 7:00PM</span>
 
-                        </div>
+                        </NavLink>
 
-                        <div className="body5">
+                        <NavLink to="/program3" className="body5">
 
                             <img className="img2" src={photo4} />
 
                             <span className="lnight">Waka Show</span>
                             <span className="ltime">6:00 PM - 7:00PM</span>
 
-                        </div>
+                        </NavLink>
 
-                        <div className="body6">
+                        <NavLink to="/program4" className="body6">
 
                             <img className="img2" src={photo5} />
 
                             <span className="lnight">Emotion Control </span>
                             <span className="ltime">6:00 PM - 7:00PM</span>
 
-                        </div>
+                        </NavLink>
 
                     </div>
                 </div>

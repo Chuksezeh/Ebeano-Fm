@@ -12,10 +12,12 @@ body{
     }
 .logo{
     width: 100px;
-    
-    height: 100px;
-    border-radius: 100px;
+    position: absolute;
+    height: 50px;
+    border-radius: 50px;
     padding: 30px;
+    margin-top: -0.5%;
+    z-index: 2;
 }
 .nav-list{
     color: aliceblue;
@@ -304,7 +306,7 @@ body{
   .radio-brand{
     position: absolute;
     color: darkorange;
-    padding-left: 50px;
+    margin-left: 8%;
     
   }
   .prog-nav{
@@ -329,11 +331,12 @@ body{
 }
 .job-list{
   background-color: black;
-  padding: 25px;
+  padding: 35px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   display:none ;
   position: absolute;
+  width: 200px;
 }
 .job-drop:hover .job-list{
   display: block;
@@ -410,6 +413,36 @@ padding-left: 15px;
   text-align: center;
 }
 .call-nav{
+  text-decoration: none;
+  color: white;
+}
+.getjob-nav{
+  text-decoration: none;
+  color:white;
+}
+.breaking-nav{
+  text-decoration: none;
+  color: white;
+}
+.news-nav{
+  text-decoration: none;
+  color: white;
+}
+.tv-nav{
+  text-decoration: none;
+  color: white;
+}
+.tv-nav:hover{
+  color: darkorange;
+}
+.about-nav{
+  text-decoration: none;
+  color: white;
+}
+.about-nav:hover{
+  color: darkorange;
+}
+.advert-nav{
   text-decoration: none;
   color: white;
 }
